@@ -29,8 +29,17 @@ h4 {
   font-weight: 300;
 }
 
+/* I let the picture fit its space in the grid. */
+picture {
+  display: block;
+  min-width: 0;
+}
+
+/* The image keeps its shape when the screen changes. */
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 960px) {
